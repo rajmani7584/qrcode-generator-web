@@ -1,3 +1,7 @@
-# QRCodeGenerator
 QRCode generator made with react
->>>>>>> d93dc7cdd552897db43b012efb0cefe845e4c455
+
+Improved version of #### PYQRCodeGenerator
+
+## No need any server api for QR generation
+### All things are done on client side
+#### it can be deployed on any type of web server
