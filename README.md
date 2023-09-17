@@ -7,3 +7,5 @@ Improved version of <a href="https://github.com/Rajmani7584/PYQRCodeGenerator">#
 ## No need any server api for QR generation
 ### All things are done on client side
 #### it can be deployed on any type of web server
+
+### Note: not optimised for mobile browser
