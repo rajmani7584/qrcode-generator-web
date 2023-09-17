@@ -1,6 +1,7 @@
 {
   "name": "qr-code-generator",
   "version": "0.1.0",
+  "author": {"name": "Rajmani Kumar", "url": "https://github.com/Rajmani7584"},
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
