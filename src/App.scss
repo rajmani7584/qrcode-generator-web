@@ -55,7 +55,7 @@
       max-height: 90%;
       max-width: 60%;
       aspect-ratio: 3/2;
-      padding: 1rem;
+      padding: 15px;
       background-color: rgba($color: #000000, $alpha: .08);
       backdrop-filter: blur(4px);
       border-radius: 16px;
@@ -95,7 +95,7 @@
             height: 2.5rem;
             aspect-ratio: 1/1;
             padding: 5px;
-            background: rgb(248, 66, 224);
+            background: blue;
             box-shadow: inset 0 0 20px 5px #74ee7e;
             border-radius: 50%;
           }
@@ -108,7 +108,9 @@
           font-size: medium;
         }
 
-        select,input,button {
+        select,
+        input,
+        button {
           height: 1.6rem;
           width: 6rem;
           outline: none;
@@ -145,6 +147,12 @@
 }
 
 @media only screen and (max-width: 680px) {
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  body {
+    overflow: scroll;
+  }
   .App {
     .Mask {
       .Container {
@@ -153,6 +161,8 @@
         aspect-ratio: unset;
         max-width: unset;
         max-height: unset;
+        padding: 0;
+        flex-direction: column;
       }
     }
   }
