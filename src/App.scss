@@ -4,7 +4,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(90deg, rgb(48, 230, 48), rgb(240, 49, 240));
+  background: linear-gradient(90deg, rgba(48, 230, 48, 145), rgba(240, 49, 240, 145));
   margin: 0;
   padding: 0;
   color: wheat;
@@ -17,7 +17,7 @@
     position: absolute;
     left: 5%;
     bottom: 15%;
-    background: radial-gradient(rgb(4, 236, 101), rgb(4, 104, 26));
+    background: radial-gradient(rgba(4, 236, 101, 145), rgba(4, 104, 26, 145));
     background-repeat: no-repeat;
     box-shadow: 0 0 18rem 18rem rgb(0, 128, 38);
     filter: blur(20px);
@@ -32,7 +32,7 @@
     position: absolute;
     right: 5%;
     top: 15%;
-    background: radial-gradient(rgb(236, 4, 236), rgb(104, 4, 104));
+    background: radial-gradient(rgba(236, 4, 236, 145), rgba(104, 4, 104, 145));
     background-repeat: no-repeat;
     box-shadow: 0 0 25rem 6rem purple;
     filter: blur(20px);
