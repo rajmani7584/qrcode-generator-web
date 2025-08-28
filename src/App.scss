@@ -61,6 +61,7 @@
       display: flex;
       // gap: 5px;
       overflow: scroll;
+      scrollbar-width: none;
 
       &>section {
         flex: 1;
