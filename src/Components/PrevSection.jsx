@@ -13,8 +13,8 @@ export default function PrevSection(props) {
                          el.click();
                          }}>
                         <svg viewBox="0 0 100 100">
-                            <polygon points="50 10,50 80" strokeWidth="20px" stroke="black" />
-                            <polygon points="10 50,90 50,50 90" fill="black" />
+                            <polygon points="50 10,50 80" strokeWidth="20px" stroke="#333333" />
+                            <polygon points="10 50,90 50,50 90" fill="#333333" />
                         </svg>
                     </div> : ""
             }
